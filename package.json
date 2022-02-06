@@ -1,0 +1,27 @@
+{
+  "name": "steamplus",
+  "version": "1.0.0",
+  "description": "A helpful Steam addon to make managing your library easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steam-plus/steamplus.git"
+  },
+  "keywords": [
+    "steam"
+  ],
+  "author": "ilikecheesybread (Node)",
+  "license": "GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/steam-plus/steamplus/issues"
+  },
+  "homepage": "https://github.com/steam-plus/steamplus#readme",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.45.4",
+    "globaluserinput": "^2.0.0",
+    "systeminformation": "^5.11.2"
+  }
+}
