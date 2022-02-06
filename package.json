@@ -14,7 +14,7 @@
     "steam"
   ],
   "author": "ilikecheesybread (Node)",
-  "license": "GPL 3.0",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/steam-plus/steamplus/issues"
   },
