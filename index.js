@@ -5,9 +5,17 @@
 
 // const nodegui = require("@nodegui/nodegui")
 const si = require("systeminformation")
-var sleep = require("system-sleep");
+
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
 
 while (true) {
-      si.processLoad("steam").then((data) => console.log(data));
-      sleep(1 * 1000);
+      // si.processLoad("steam").then((data) => console.log(data));
+      console.log("hello world");
+      sleep(1000);
 }
