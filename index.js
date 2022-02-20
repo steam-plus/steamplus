@@ -15,7 +15,6 @@ function sleep(milliseconds) {
 }
 
 while (true) {
-      // si.processLoad("steam").then((data) => console.log(data));
-      console.log("hello world");
+      si.networkStats(eth0).then((data) => console.log(data));
       sleep(1000);
 }
